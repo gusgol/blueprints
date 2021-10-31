@@ -1,7 +1,4 @@
 # Trending Projects
-Hi, thank you for making the time to check my project! I hope you find some value in it!
-
-Please notice that this project was built using Android Studio preview **Arctic Fox Beta 5**.
 
 ## Description
 The app retrieves GitHub repositories from the [Search Repositories Api](https://docs.github.com/en/rest/reference/search#search-repositories) endpoint, sorting it by the number of stars (simulating the "trending" list).
@@ -30,7 +27,5 @@ If you select a repository, you will be taken to the detail screen, where you ca
 **Next steps**
 - [ ] Improve testing coverage: extension  functions, utils, etc
 - [ ] Extract core functionalities to a different module (lib:core)
-
-One last thing, I also created a GitHub project [MVP](https://github.com/xapo-android-interviews/test-project-gusgol/projects/3). Although it does not reflect every thing that I did, it is very close to how I organize my work.
 
 
