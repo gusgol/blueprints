@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/visit"
+        android:icon="@drawable/ic_launch"
+        android:title="@string/action_visit_project"
+        android:contentDescription="@string/cl_repo_visit"
+        app:showAsAction="always" />
+</menu>

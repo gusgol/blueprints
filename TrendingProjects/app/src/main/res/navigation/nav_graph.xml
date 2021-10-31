@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/reposFragment">
+
+    <fragment
+        android:id="@+id/reposFragment"
+        android:name="tech.hiregus.trendingprojects.ui.repos.list.ReposFragment"
+        android:label="@null"
+        tools:layout="@layout/fragment_repos" >
+        <action
+            android:id="@+id/action_repoList_to_repoDetail"
+            app:destination="@id/repoDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/repoDetailFragment"
+        android:name="tech.hiregus.trendingprojects.ui.repos.detail.RepoDetailFragment"
+        android:label="@null"
+        tools:layout="@layout/fragment_repo_detail" >
+        <argument
+            android:name="repo"
+            app:argType="tech.hiregus.trendingprojects.data.model.Repo"
+            app:nullable="true" />
+    </fragment>
+</navigation>

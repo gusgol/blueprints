@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Trending Projects</string>
+
+    <!-- Titles -->
+    <string name="title_repos">Trending Projects</string>
+    <string name="title_created_date">Created date</string>
+    <string name="title_filter">Filter</string>
+    <string name="title_order_by">Order by</string>
+    <string name="title_languages">Languages</string>
+
+    <!-- Messages -->
+    <string name="msg_repos_empty">No repos found!</string>
+    <string name="mgs_d_stars">%1$d stars</string>
+
+    <!-- Actions -->
+    <string name="action_filter">Filter</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_today">Today</string>
+    <string name="action_last_week">Last week</string>
+    <string name="action_last_month">Last month</string>
+    <string name="action_descending">Descending</string>
+    <string name="action_ascending">Ascending</string>
+    <string name="action_visit_project">Visit project</string>
+
+    <!-- Errors -->
+    <string name="error_repo_detail">Failed to load the repo detail</string>
+    <string name="error_loading_repos">Unfortunately, we were not able to load the repositories at this time.</string>
+    <string name="error_load_page">Failed to load this page</string>
+
+    <!-- Content description -->
+    <string name="cl_repo_visit">Visit this repo in the web browser</string>
+    <string name="cd_filter_repos">Add or remove repos list filters</string>
+
+    <!-- Sample text -->
+    <string name="sample_short">Lorem ipsum</string>
+    <string name="sample_medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+
+    <!-- Transitions -->
+    <string name="transition_repo">repo_card_%1$s</string>
+    <string name="transition_repo_detail">repo_card</string>
+
+    <!-- Time Ago -->
+    <string name="just_now">just now</string>
+    <string name="a_month_ago">a month ago</string>
+    <string name="msg_no_languages_available">No languages information available</string>
+    <string name="msg_loading">Loading…</string>
+    <plurals name="weeks_ago">
+        <item quantity="one">%d week ago</item>
+        <item quantity="other">%d weeks ago.</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="one">%d day ago</item>
+        <item quantity="other">%d days ago</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="one">%d hour ago</item>
+        <item quantity="other">%d hours ago</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="one">%d minute ago</item>
+        <item quantity="other">%d minutes ago</item>
+    </plurals>
+
+
+</resources>

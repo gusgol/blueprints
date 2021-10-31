@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default -->
+    <dimen name="keyline_0">2dp</dimen>
+    <dimen name="keyline_1">4dp</dimen>
+    <dimen name="keyline_2">8dp</dimen>
+    <dimen name="keyline_3">12dp</dimen>
+    <dimen name="keyline_4">16dp</dimen>
+    <dimen name="keyline_5">24dp</dimen>
+
+    <!-- Properties -->
+    <dimen name="corner_size">0dp</dimen>
+    <dimen name="icon_error_state">42dp</dimen>
+    <dimen name="avatar_size">42dp</dimen>
+    <dimen name="filter_peek">64dp</dimen>
+
+</resources>
